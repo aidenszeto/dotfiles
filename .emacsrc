@@ -1,0 +1,9 @@
+# emacs
+alias emacs="emacs -nw"
+
+clean-emacs() {
+    find . -name '*~' -delete
+}
+
+export -f clean-emacs
+

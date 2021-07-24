@@ -1,0 +1,12 @@
+# filesystem
+alias home="cd ~"
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ll="ls -Al"
+alias la="ls -A"
+alias l="ls -l"
+
+# other
+alias untar="tar -zxvf"
+alias ports="netstat -tulanp"
+
