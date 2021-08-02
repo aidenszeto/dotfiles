@@ -10,3 +10,5 @@ alias l="ls -l"
 alias untar="tar -zxvf"
 alias ports="netstat -tulanp"
 
+# dependencies
+alias prepdep="sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove"

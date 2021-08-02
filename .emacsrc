@@ -2,7 +2,7 @@
 alias emacs="emacs -nw"
 
 clean-emacs() {
-    find . -name '*~' -delete
+    find . -maxdepth 1 -name '*~' -delete
 }
 
 export -f clean-emacs
